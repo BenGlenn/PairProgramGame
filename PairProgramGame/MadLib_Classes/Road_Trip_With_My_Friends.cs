@@ -4,59 +4,114 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PairProgramGame.NewFolder1
+namespace PairProgrammingGame.MadLibs
 {
-    class Road_Trip_With_My_Friends
+    class Roadtrip
     {
-        private readonly MadLib_Repository _madLibRepo = new MadLib_Repository();
+        private readonly MadLibRepository _madLibRepo = new MadLibRepository();
 
-        public void MyRoadTrip()
+        public void RoadTripWithFriend()
         {
-            Console.Write("Enter an adjective: ");
-            _madLibRepo.AdjNumOne = Console.ReadLine().ToUpper();
-            Console.Write("Enter a place: ");
-            _madLibRepo.PlaceOne = Console.ReadLine().ToUpper();
-            Console.Write("Enter another adjective: ");
-            _madLibRepo.AdjNumTwo = Console.ReadLine().ToUpper();
-            Console.Write("Enter another adjective: ");
-            _madLibRepo.AdjNumThree = Console.ReadLine().ToUpper();
-            Console.Write("Enter a plural noun: ");
-            _madLibRepo.PlurlNounOne = Console.ReadLine().ToUpper();
-            Console.Write("Enter another plural noun: ");
-            _madLibRepo.PlurlNounTwo = Console.ReadLine().ToUpper();
-            Console.Write("Enter a noun: ");
-            _madLibRepo.NounNumOne = Console.ReadLine().ToUpper();
-            Console.Write("Enter a verb: ");
-            _madLibRepo.VerbOne = Console.ReadLine().ToUpper();
-            Console.Write("Enter another noun: ");
-            _madLibRepo.NounNumTwo = Console.ReadLine().ToUpper();
-            Console.Write("Enter another verb: ");
-            _madLibRepo.VerbTwo = Console.ReadLine().ToUpper();
-            Console.Write("Enter an action verb: ");
-            _madLibRepo.ActVerbOne = Console.ReadLine().ToUpper();
-            Console.Write("Enter another plural noun: ");
-            _madLibRepo.PlurlNounThree = Console.ReadLine().ToUpper();
-            Console.Write("Enter another noun: ");
-            _madLibRepo.NounNumThree = Console.ReadLine().ToUpper();
-            Console.Write("Enter a verb that ends with -ing: ");
-            _madLibRepo.VerbThree = Console.ReadLine().ToUpper();
-            Console.Write("Enter another noun: ");
-            _madLibRepo.NounNumFour = Console.ReadLine().ToUpper();
-            Console.Write("Enter a time: ");
-            _madLibRepo.TimeOne = Console.ReadLine().ToUpper();
-            Console.Write("Enter another adjective: ");
-            _madLibRepo.AdjNumFour = Console.ReadLine().ToUpper();
-            Console.Write("Enter another action verb: ");
-            _madLibRepo.ActVerbTwo = Console.ReadLine().ToUpper();
-            Console.Write("Enter another verb: ");
-                _madLibRepo.VerbFour = Console.ReadLine().ToUpper();
-            Console.Write("Enter another adjective: ");
-            _madLibRepo.AdjNumFive = Console.ReadLine().ToUpper();
-            Console.Write("Enter a possessive noun: ");
-            _madLibRepo.PossessNounOne = Console.ReadLine().ToUpper();
-            Console.WriteLine("Ready to read your MadLib?");
+            Console.WriteLine("I hope you are ready to go on a fun wild adventure!\n" +
+                "I need to get some information from you before\n" +
+                " we can go on our trip. HERE WE GO!");
             Console.WriteLine();
-            Console.WriteLine($"{_madLibRepo.MadLibTwo()}");
+            Console.WriteLine("Enter an adjective: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.AdjectiveOne = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter a place: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.PlaceOne = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter another adjective: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.AdjectiveTwo = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter another adjective: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.AdjectiveThree = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter a plural noun: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.PluralNounOne = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter another plural noun: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.PluralNounTwo = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter a noun: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.NounOne = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter a verb: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.VerbOne = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter another noun: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.NounTwo = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter another verb: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.VerbTwo = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter an action verb: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.ActionVerbOne = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter another plural noun: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.PluralNounThree = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter another noun: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.NounThree = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter a verb that ends with -ing: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.VerbThree = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter another noun: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.NounFour = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter a time: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.Time = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter another adjective: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.AdjectiveFour = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter another action verb: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.ActionVerbTwo = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter another verb: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.VerbFour = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter another adjective: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.AdjectiveFive = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Enter a possessive noun: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            _madLibRepo.PossessiveNounOne = Console.ReadLine().ToUpper();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Ready to read your MadLib?");
+
+            Console.WriteLine();
+            Console.WriteLine("Perfect. Let me add it into my MadLib Mania Machine...");
+            Console.WriteLine("DONE! Press any key to see your results...");
+            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine($"{ _madLibRepo.MadLibTwo()}");
+            Console.WriteLine();
+            Console.WriteLine("\t\t\tLETS DO SOME MORE!");
+            Console.WriteLine("\t\t\tPress Any Key To Continue");
+            Console.ReadKey();
         }
     }
 }

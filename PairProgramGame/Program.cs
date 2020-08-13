@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PairProgramGame
+namespace PairProgrammingGame
 {
     class Program
     {
         static void Main(string[] args)
         {
-         var gamePlay = new MadLibUI();
-          gamePlay.Start();
-
+            var gamePlay = new MadLibUI();
+            gamePlay.Start();
         }
     }
 }

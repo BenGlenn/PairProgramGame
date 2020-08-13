@@ -33,8 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Figgle, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Figgle.0.3.0\lib\net45\Figgle.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,8 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MadLibUI.cs" />
+    <Compile Include="MadLib_Classes\FirstDates.cs" />
+    <Compile Include="MadLib_Classes\Instructions.cs" />
+    <Compile Include="MadLib_Classes\PizzaPizza.cs" />
+    <Compile Include="MadLib_Classes\Unicorns.cs" />
     <Compile Include="MadLib_Repository.cs" />
-    <Compile Include="MadLib_Classes\Coming_Soon.cs" />
     <Compile Include="MadLib_Classes\My_Ideal_President.cs" />
     <Compile Include="MadLib_Classes\Road_Trip_With_My_Friends.cs" />
     <Compile Include="Program.cs" />
@@ -53,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
