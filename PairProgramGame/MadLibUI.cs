@@ -51,13 +51,13 @@ namespace PairProgramGame
             {
                 case "1":
                     _My_Ideal_President.MyIdealPresident();
+                    GetMenuSelection();
                     break;
                 case "2":
                     _Road_Trip.MyRoadTrip();
                     break;
 
             }
-            Console.ReadKey();
             return;
 
         }

@@ -52,12 +52,12 @@ namespace PairProgramGame
                 $"\t making sure people feel {AdjNumFour} and {AdjNumFive} .\n" +
                 $"\t Third, a President represents our Country around the\n " +
                 $"\t {PlaceOne} and should be {AdjNumSix} when {VerbTwo} with\n" +
-                $"\t other world {PlurlNounOne}.Strength of {NounNumThree},\n" +
+                $"\t other world {PlurlNounOne}. Strength of {NounNumThree},\n" +
                 $"\t a good sense of {NounNumFour}, and {AdjNumSeven}\n" +
                 $"\t leadership are all things my ideal president would have.\n" +
                 $"\n" +
                 $"\n" +
-                $"\t\t\t\tNICE JOB!";
+                $"\t\t\tNICE JOB!";
 
             return madLibOne;
 
@@ -83,7 +83,7 @@ namespace PairProgramGame
                 $"\t  road trip of my {PossessNounOne}.\n" +
                 $"\n" +
                 $"\n" +
-                $"\t\t\t\tNICE JOB!";
+                $"\t\t\tNICE JOB!";
 
             return madLibTwo;
 
