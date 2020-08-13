@@ -10,6 +10,9 @@ namespace PairProgramGame
     {
         static void Main(string[] args)
         {
+         var gamePlay = new MadLibUI();
+          gamePlay.Start();
+
         }
     }
 }
