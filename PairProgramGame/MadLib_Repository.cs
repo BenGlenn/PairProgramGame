@@ -57,7 +57,7 @@ namespace PairProgramGame
                 $"\t leadership are all things my ideal president would have.\n" +
                 $"\n" +
                 $"\n" +
-                $"\t\t\tNICE JOB!";
+                $"\t\t\t\tNICE JOB!";
 
             return madLibOne;
 
@@ -83,7 +83,7 @@ namespace PairProgramGame
                 $"\t  road trip of my {PossessNounOne}.\n" +
                 $"\n" +
                 $"\n" +
-                $"\t\t\t NICE JOB!";
+                $"\t\t\t\tNICE JOB!";
 
             return madLibTwo;
 

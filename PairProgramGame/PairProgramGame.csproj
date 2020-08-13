@@ -43,10 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cut_Paste_Delete.cs" />
     <Compile Include="MadLibUI.cs" />
     <Compile Include="MadLib_Repository.cs" />
-    <Compile Include="NewFolder1\My_Ideal_President.cs" />
+    <Compile Include="MadLib_Classes\Coming_Soon.cs" />
+    <Compile Include="MadLib_Classes\My_Ideal_President.cs" />
+    <Compile Include="MadLib_Classes\Road_Trip_With_My_Friends.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
